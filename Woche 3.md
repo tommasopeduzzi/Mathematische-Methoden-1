@@ -80,3 +80,29 @@ Beispiel für divergierende Reihe:
 $\sum_{k=1}{\infty}\frac{1}{k} = 1 + \frac{1}{2}+ \frac{1}{3}...$
 $\sum_{k=1}{\infty}\frac{1}{k^2} = 1 + \frac{1}{2}+ (\frac{1}{3}+\frac{1}{4}) +(\frac{1}{5}...\frac{1}{8})...$
 Die einzelnen Packete lassen sich als $\frac{1}{2}$ abschätzen.
+
+**Beispiel 2.1.19**
+$a_{n+1} = \sqrt{2 + a_n}$
+a_n ist monoton steigend und nach oben durch $2$ beschränkt.
+
+$a_{n+1} ≥ a_n$       $\forall n$ 
+und $a >2$
+Beweis durch Induktion n= 1: $a_1 = \sqrt{2} < 2$
+$a_2 = \sqrt{a+\sqrt2} > \sqrt{2}$
+Induktionsvoraussetzung $n \to n+1$
+$a_{n+1} = \sqrt{2+a_n} ≥ a_n$     |$+2$
+$a_{n+1} +2 = 2+\sqrt{2+a_n} ≥2+ a_n$
+$a_{n+2} )=\sqrt{2+\sqrt{2+a_n}} ≥ a_{n+1}$ qed
+
+$a_n ≤ 2$    |+2
+$a_n+2 ≤ 4$ |sqrt
+$a_{n+1}  = \sqrt{2+a_n} ≤ 2$ wie behauptet für n +1
+Daraus folgt: Grenzwert existiert
+Wende Rekursionsformel an:
+$a_{n+1} = \sqrt{2+a_n}$  |^2
+$a_{n+1}^2 =2+a_n$ 
+$\lim_{n\to\infty} a_{n+1}^2 =2+ \lim_{n\to\infty} a_n$ 
+$a^2 = 2+a$
+Lösung quadratische Gleichung a = 2 oder a=-1 und weil $\sqrt2≤a_n < 2$ und -1 unmöglich ist der Grenzwert 2.
+
+[[Aufgabenblatt 4]]
