@@ -1,5 +1,5 @@
 # Woche 3
-![[skriptMMI3.pdf.pdf]]
+![[skriptMMI3.pdf]]
 ### 2.1 Folgen und Grenzwerte
 
 Bsp.: 2, 4, 6, 8, ...  $a_n = 2n$

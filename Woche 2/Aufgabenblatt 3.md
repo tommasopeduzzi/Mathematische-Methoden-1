@@ -6,46 +6,46 @@
 
 a)
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 10 \\
 7
-\end{pmatrix} = \frac{10*9*8*7*6*5*4}{7*6*5*4*3*2} = \frac{10*9*8}{3*2}=120$
+\end{pmatrix} = \frac{10*9*8*7*6*5*4}{7*6*5*4*3*2} = \frac{10*9*8}{3*2}=120$$
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 101 \\
 99
-\end{pmatrix}= \frac{101*100}{2} = 5050$
+\end{pmatrix}= \frac{101*100}{2} = 5050$$
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 7 \\
 3
-\end{pmatrix} = \frac{7*6*5}{3*2} = 35$
+\end{pmatrix} = \frac{7*6*5}{3*2} = 35$$
 
-$\begin{pmatrix}16 \\
+$$\begin{pmatrix}16 \\
 4
-\end{pmatrix} = 2*5*14*13= 1820$
+\end{pmatrix} = 2*5*14*13= 1820$$
 
 b)
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 8 \\
 3
-\end{pmatrix} = \frac{8*7*6}{3*2} = 56$
+\end{pmatrix} = \frac{8*7*6}{3*2} = 56$$
 
-$\begin{pmatrix}8 \\
+$$\begin{pmatrix}8 \\
 4
 \end{pmatrix} = \begin{pmatrix}
 8 \\
 3
-\end{pmatrix} * \frac{5}{4} = 70$
+\end{pmatrix} * \frac{5}{4} = 70$$
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 8 \\
 5
 \end{pmatrix} = \begin{pmatrix}
 8 \\
 4
-\end{pmatrix} * \frac{6}{5} = 84$
+\end{pmatrix} * \frac{6}{5} = 84$$
 
 c) $3! * (\sum_{k = 1}^{10} 10-k)+ 3 = 6 * (9+8+7+6+5+4+3+2+1) + 3 = 273$
 
@@ -114,23 +114,23 @@ Induktionsschritt:
 
 c) Induktionsverankerung mit n = 0:
 
-$\sum_{m = k}^{0}\begin{pmatrix}
+$$\sum_{m = k}^{0}\begin{pmatrix}
 m \\
 k
 \end{pmatrix} = 0= \begin{pmatrix}
 1 \\
 k+1
-\end{pmatrix}$
+\end{pmatrix}$$
 
-Es gilt zu beweisen: $\sum_{m = k}^{n+1}\begin{pmatrix}
+Es gilt zu beweisen: $$\sum_{m = k}^{n+1}\begin{pmatrix}
 m \\
 k
 \end{pmatrix} = \begin{pmatrix}
 n+2 \\
 k+1
-\end{pmatrix} = \frac{(n+2)!}{k!(n+2-k)!}$
+\end{pmatrix} = \frac{(n+2)!}{k!(n+2-k)!}$$
 
-$\sum_{m = k}^{n}\begin{pmatrix}
+$$\sum_{m = k}^{n}\begin{pmatrix}
 m \\
 k
 \end{pmatrix} = \begin{pmatrix}
@@ -139,9 +139,9 @@ k+1
 \end{pmatrix} = \frac{n!}{k!(n-k)!}$           |$+ \begin{pmatrix}
 n+1 \\
 k
-\end{pmatrix}$ 
+\end{pmatrix}$$
 
-$\sum_{m = k}^{n+1}\begin{pmatrix}
+$$\sum_{m = k}^{n+1}\begin{pmatrix}
 m \\
 k
 \end{pmatrix} = \begin{pmatrix}
@@ -150,9 +150,9 @@ k+1
 \end{pmatrix} + \begin{pmatrix}
 n+1 \\
 k
-\end{pmatrix} = \frac{n!}{k!(n-k)!} + \frac{(n+1)!}{k!(n+1-k)!}$
+\end{pmatrix} = \frac{n!}{k!(n-k)!} + \frac{(n+1)!}{k!(n+1-k)!}$$
 
-$\sum_{m = k}^{n+1}\begin{pmatrix}
+$$\sum_{m = k}^{n+1}\begin{pmatrix}
 m \\
 k
 \end{pmatrix} = \begin{pmatrix}
@@ -164,7 +164,7 @@ k
 \end{pmatrix}  = \begin{pmatrix}
 n+2 \\
 k+1
-\end{pmatrix}$ (Rekursionsformel) qed
+\end{pmatrix}$$ (Rekursionsformel) qed
 
 ---
 
@@ -181,7 +181,3 @@ $f = 10$
 $k = \frac{3f}{2} = \frac{3*10}{2} = 15$
 
 b) 
-
-![[Untitled]]
-
-![[Untitled]]
