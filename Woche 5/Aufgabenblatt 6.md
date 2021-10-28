@@ -48,6 +48,8 @@ $z_2 = e^{i2*\frac {2\pi}{4}} = \cos(\pi) + \sin(\pi)i = -1$
 $z_3 = e^{32*\frac {2\pi}{4}} = \cos(\frac {3\pi} 2) + \sin(\frac {3\pi} 2)i = -i$
 ![[Pasted image 20211027154310.png]]
 e)
+$z^4 = -4$
+$r = \frac{a}{e^{i\pi}} = 4$
 $z_0 = \sqrt[4]{4} *e^{i\frac{0+0*2\pi}{4}} = \sqrt{2}$
 $z_1 = \sqrt[4]{4} *e^{i\frac{0+1*2\pi}{4}} =\sqrt2e^{i\frac{0+2\pi}{4}}=\sqrt2e^{i\frac{\pi}{2}} = \sqrt2i$
 $z_2 = \sqrt2 e^{i\pi} = -\sqrt{2}$
@@ -56,3 +58,12 @@ $z_3 = \sqrt[4]{4} *e^{i\frac{6\pi}{4}} =-\sqrt2i$
 
 ---
 **Aufgabe 3**
+a) 
+Über  $\mathbb R$:  $p(x) = x^4-2x^2-15 = (x^2-5)(x^2-3)$$=(x-\sqrt5)(x+\sqrt5)(x^2+3)$
+
+b)
+Über  $\mathbb R$: $p(x) = x^3 -x^2 -8x + 12 =(x-2)(x^2+x-6) = (x-2)^2(x+3)$
+Ich bin mir bei a) und b) nicht sicher wie es über $\mathbb C$ auflösbar sein soll, wenn es so bereits in lineare Faktoren, die nicht weiter zerlegbar sind, faktoriert werden kann...
+c)
+Über $\mathbb C$: $p(x) = x^4 + 4 = (x-\sqrt{2})(x- \sqrt2e^{i\frac{\pi}{2}})(x +\sqrt{2})(x + \sqrt2e^{i\frac{\pi}{2}})$
+Über  $\mathbb R$: $(x-\sqrt{2})(x +\sqrt{2})(x- \sqrt2i)(x + \sqrt2i) = (x-\sqrt{2})(x +\sqrt{2})(x^2 +x\sqrt2i -x\sqrt2i -2)$$=(x-\sqrt{2})(x +\sqrt{2})(x^2-2)$
