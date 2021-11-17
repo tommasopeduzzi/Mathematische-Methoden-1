@@ -1,4 +1,4 @@
-# Aufgabenblatt 8¨
+# Aufgabenblatt 8
 **Aufgabe 1**
 a) $f(x) = \frac{(x-1)(x+3)}{e^x}$
     $f'(x) = \frac{(2x + 2) e^x - e^x(x^2+2x-3)}{e^{2x}} =\frac{e^x((\sqrt5 + x)(\sqrt5-x))}{e^{2x}}= e^{-x}((\sqrt5 + x)(\sqrt5-x))$	$f''(x))= -e^x((\sqrt5 + x)(\sqrt5-x)) *e^{-x}(2x*2\sqrt5)$
