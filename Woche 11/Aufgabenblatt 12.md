@@ -86,4 +86,4 @@ a) $\left|\begin{array}{}0&-\sqrt6&0\\\sqrt2&10&0\\-1&5\pi&\sqrt3\end{array}\rig
 b) 
 $\left|\begin{array}{}1&4&0&3\\2&0&7&-1\\3&0&-2&-1\\0&6&1&-4\end{array}\right|\stackrel{=}{\text{2. Spalte entwicheln}}-4\left|\begin{array}{}2&7&-1\\3&-2&1\\0&1&-4\end{array}\right|+6\left|\begin{array}{}1&0&3\\2&7&-1\\3&-2&1\\\end{array}\right| = -4(-1(2+3)-4(21+4))+6(1(7-2)+3(-4-21))=-4(-105)+6(-70) = 0$
 
-c) $\left|\begin{array}{}2&7&0&3\\0&2&0&0\\6&-3&4&0\\1&5&-1&1\end{array}\right|\stackrel{=}{\text{der 4. Spalte entwickeln}}-3\left|\begin{array}{}0&2&0\\6&-3&4\\1&5&-1\end{array}\right|+\left|\begin{array}{}2&7&0\\0&2&0\\6&-3&4\\\end{array}\right| =-3(-2(4+6))+(2(8)) = 60+16 = 76$
+c) $\left|\begin{array}{}2&7&0&3\\0&2&0&0\\6&-3&4&0\\1&5&-1&1\end{array}\right|\stackrel{=}{\text{der 4. Spalte entwickeln}}-3\left|\begin{array}{}0&2&0\\6&-3&4\\1&5&-1\end{array}\right|+\left|\begin{array}{}2&7&0\\0&2&0\\6&-3&4\\\end{array}\right| =-3(-2(4+6))+(2(8)) = 60-16 = 44$
